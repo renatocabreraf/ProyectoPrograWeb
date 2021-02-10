@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <header>
+    <Nevbar />
+  </header> 
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Nevbar from './components/Nevbar';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Nevbar
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
+header {
+  width: 100vw;
+  background-image: url('./nevbarMetal.jpg');
+  padding: 30px;
+}
+
+body{
+  background: black;
+  color: wheat;
+}
+
+
 </style>
