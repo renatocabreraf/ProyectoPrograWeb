@@ -3,6 +3,7 @@ import App from './App.vue'
 import Slider from './Slider.vue'
 
 
+
 Vue.config.productionTip = false
 
 new Vue({

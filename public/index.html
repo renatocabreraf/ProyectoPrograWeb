@@ -1,3 +1,7 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <!DOCTYPE html>
 <html lang="">
   <head>
@@ -6,6 +10,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>PrimerIcono.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <noscript>
@@ -14,10 +21,9 @@
     <div id="app"></div>
     <div id="slider"></div>
     <!-- built files will be auto injected -->
-    <div class="info-image">
     <div class="info-page">
-      <h1 class="info-titulo">¡Bienvenido Coleccionista!</h1>
-      <p class="info-cont">
+      <h1 class="info-titulo"><span>¡Bienvenido Coleccionista!</span></h1>
+      <p>
         En este espacio podrás conectarte con miles de coleccionistas dispuestos a compartir experiencias
         dentro del coleccionismo. Perosnas de todas las edades se congregan con un sólo propósito: Los Hot Wheels.
         En esta página podrás descubrir la historia de Hot Wheels, enterarte de las últimas noticias y lanzamientos, compartir tu colección y
@@ -25,6 +31,26 @@
       </p>
       <a class="info-ref" href="#">Contacta con nosotros</a>
     </div>
+    <div class="video-p">
+      <h1 class="video-title">Videos de canales destacados</h1>
+      <iframe class = "video1" width="560" height="315" src="https://www.youtube.com/embed/tldMm_ZUsFs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class = "video2" width="560" height="315" src="https://www.youtube.com/embed/LjYvlSvsCQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="footer-basic">
+      <footer>
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Inicio</a></li>
+              <li class="list-inline-item"><a href="#">Contáctanos</a></li>
+              <li class="list-inline-item"><a href="#">Sobre Nosotros</a></li>
+              <li class="list-inline-item"><a href="#">Terminos y condiciones</a></li>
+              <li class="list-inline-item"><a href="#">Políticas de Privacidad</a></li>
+          </ul>
+          <p class="copyright">Renato Cabrera© 2021</p>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   </body>
+  <div id="footer"></div>
 </html>
