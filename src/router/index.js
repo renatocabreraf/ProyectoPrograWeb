@@ -18,6 +18,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
+
 ]
 
 const router = new VueRouter({
@@ -25,5 +26,24 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+const coleccion = new Vue({
+  el: '.coleccion',
+  data: {
+    notes: [],
+    currentNote: null
+  },
+  methods: {
+    crateNote(){
+      const newNote = {title: '', contents: ''};
+      this.notes.push(newNote);
+      this.crateNote = newNote;
+      this.$nextTick(function(){
+        this.$refs.noteTitle.focus();
+      })
+    }
+  }
+})
+
 
 export default router
