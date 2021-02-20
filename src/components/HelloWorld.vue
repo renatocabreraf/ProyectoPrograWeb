@@ -67,6 +67,7 @@ export default {
   text-align: center;
   color: #fff;
   font-weight: bold;
+  background-color: black;
 }
 
 h3 {
