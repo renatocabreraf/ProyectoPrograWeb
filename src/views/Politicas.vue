@@ -1,5 +1,6 @@
 <template>
 <div class="priv">
+  <Navbar />
     <div id="cuerpo">
     <p><strong>POLÍTICA DE PRIVACIDAD</strong></p><p>&nbsp;</p><p>El presente Política de 
     Privacidad establece los términos en que Hot Wheels Collectors Guatemala Fan Club usa y protege
@@ -60,9 +61,11 @@
 
 <script>
 import Footer from '@/components/Footer.vue'
+import Navbar from '@/components/Navbar.vue'
 export default {
  components:{
       Footer,
+      Navbar,
     }
   }
 </script>

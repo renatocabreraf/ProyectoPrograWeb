@@ -2,11 +2,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+
+
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: Home
   },
@@ -57,8 +59,49 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/Tipo.vue')
+  },
+  {
+    path: "/coleccion",
+    name: "Coleccion",
+    component: () => import("../views/Coleccion.vue")
+  },
+  {
+    path: "/piezas",
+    name: "Piezas",
+    component: () => import("../views/Piezas.vue")
+  },
+  {
+    path: "/mercado",
+    name: "Mercado",
+    component: () => import("../views/Mercado.vue")
+  },
+  {
+    path: "/",
+    name: "SignUp",
+    component: () => import("../components/SignUp.vue")
+  },
+  {
+    path: "/tutorials",
+    alias: "/tutorials",
+    name: "tutorials",
+    component: () => import("../components/TutorialsList")
+  },
+  {
+    path: "/tutorials/:id",
+    name: "tutorial-details",
+    component: () => import("../components/Tutorial")
+  },
+  {
+    path: "/add",
+    name: "add",
+    component: () => import("../components/AddTutorial")
   }
-
+  ,
+  {
+    path: "/contacto",
+    name: "Contacto",
+    component: () => import("../views/Contacto.vue")
+  }
 ]
 
 const router = new VueRouter({

@@ -1,5 +1,6 @@
 <template>
 <div class="terms">
+  <Navbar />
     <h1 id="titulo">Términos y Condiciones</h1>
     <img src="../assets/Logo2.png">
        <p id="cuerpo"> El sitio web (definido a continuación) es proporcionado por Renato Cabrera como proyecto de la asignatura Programación Web. Estos "Términos y condiciones de uso del sitio web" (este "Acuerdo de usuario") rigen el uso del sitio web, independientemente de cómo acceda o utilice. Por "Sitio web", nos referimos a la dirección de dominio de Internet dentro de la cual se publica este Acuerdo de usuario y todas las funciones, aplicaciones, contenido y descargas que operamos y que están disponibles a través de él o interactúan con él y / o publican enlaces a este. Acuerdo del Usuario.
@@ -24,9 +25,11 @@ Cada vez que utiliza el sitio web, este Acuerdo de usuario se aplica a su uso. C
 
 <script>
 import Footer from '@/components/Footer.vue'
+import Navbar from '@/components/Navbar.vue'
 export default {
  components:{
       Footer,
+      Navbar,
     }
   }
 </script>

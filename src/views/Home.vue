@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Navbar />
     <Slider />
     <HelloWorld msg="¡Bienvenido Coleccionista!"/>
     <Footer />
@@ -11,6 +12,8 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import Slider from '@/components/Slider.vue'
 import Footer from '@/components/Footer.vue'
+import SignUp from "@/components/SignUp.vue";
+import Navbar from "@/components/Navbar.vue";
 export default {
   data(){
         return {
@@ -72,6 +75,16 @@ export default {
     HelloWorld,
     Slider,
     Footer,
+    SignUp,
+    Navbar
   }
 }
+
+  
 </script>
+
+<style>
+html,body{
+    background-color: black;
+}
+</style>

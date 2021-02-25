@@ -30,12 +30,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-  body{
+  body,html{
     background-color: black;
   }
 
  .info-titulo{
-  font-size: 80px;
+  font-size: 55px;
   padding: 15px;
   text-transform: uppercase;
   margin: 0;
@@ -49,12 +49,14 @@ export default {
   color: #fff;
   font-weight: bold;
   background-color: black;
+  padding-left: 70px;
+  padding-right: 70px;
+
 }
 
-.video-title{
-  height: 1px;
+.video-title{  
   font-size: 35px;
-  padding: 80px;
+  padding: 25px;
   text-transform: uppercase;
   margin: 0;
   font-style: italic;
@@ -63,7 +65,7 @@ export default {
 }
 
 .video-p{
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   color: #fff;
   font-weight: bold;

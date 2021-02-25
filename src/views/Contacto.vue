@@ -1,26 +1,28 @@
 <template>
-<div id="contact-form" class="contact-form">
-		<h1 class="contact-form_title">Contact Form</h1>
-		<div class="separator"></div>
-
-		<div v-if="isSending" class="loading">Sendig...</div>
-
-		<form class="form" @submit="onSubmit">
-			<input required name="name" v-model='contact.name' placeholder="Name" type="text" autocomplete="off">
-			<input required name="email" v-model="contact.email" placeholder="E-mail" type="email" autocomplete="off">
-			<textarea name="message" v-model="contact.message" rows="4" placeholder="Message"></textarea>
-		   <button class="button">Send</button>
-		</form>
-        <Footer />
-	</div>
-
+<div>
+	<Navbar />
+  <b-container fluid>
+    <b-row class="my-1" v-for="type in types" :key="type">
+      <b-col sm="3">
+        <label :for="`type-${type}`">Type <code>{{ type }}</code>:</label>
+      </b-col>
+      <b-col sm="9">
+        <b-form-input :id="`type-${type}`" :type="type"></b-form-input>
+      </b-col>
+    </b-row>
+  </b-container>
+  <Footer />
+</div>
 </template>
+
 
 <script>
 import Footer from '@/components/Footer.vue'
+import Navbar from '@/components/Navbar.vue'
 export default {
  components:{
       Footer,
+      Navbar,
     }
   }
 </script>

@@ -6,8 +6,8 @@
             <a href="https://www.twitter.com/renatocabreraf"><i class="icon ion-social-twitter"></i></a>
             <a href="https://www.facebook.com/renatocabrera98"><i class="icon ion-social-facebook"></i></a></div>
           <ul class="list-inline">
-              <li class="list-inline-item" ><router-link to="/">Inicio</router-link></li>
-              <li class="list-inline-item"><router-link to="/contact">Contáctanos</router-link></li>
+              <li class="list-inline-item" ><router-link to="/home">Inicio</router-link></li>
+              <li class="list-inline-item"><router-link to="/contacto">Contáctanos</router-link></li>
               <li class="list-inline-item"><router-link to="/about">Sobre Nosotros</router-link></li>
               <li class="list-inline-item"><router-link to="/terms">Terminos y condiciones</router-link></li>
               <li class="list-inline-item"><router-link to="/priv">Políticas de Privacidad</router-link></li>
@@ -25,6 +25,13 @@ export default {
 </script>
 
 <style>
+
+
+.footer-basic {
+  display: flex;
+  flex-direction: column;
+
+}
 .footer-basic {
   padding:40px 0;
   background-color:#333232;

@@ -1,86 +1,43 @@
 <template>
-    <div class="historia">
+    <div class="piezas">
       <Navbar />
         <div id="comienzos">
             <br><br>
-            <img src="../assets/Sweet Sixteen.jpg" width="540px" height="350px">
-            <h6 id="fuente"> Por Renato Cabrera | Fecha: 19/02/2021</h6>
-            <h1 id="encabezado">Sweet Sixteen</h1>
-            <h3 id="sub">Comienza la Aventura</h3>
+            <img src="https://content.invisioncic.com/x290494/monthly_2021_02/73543348_HWC_BlogHeader_PopCultureMix1-mockup(1).jpg.45da994e6ffdffb71eff85d2abd36781.jpg" width="685px" height="205px">
+            <h6 id="fuente"> Por Renato Cabrera | Fecha: 24/02/2021</h6>
+            <h1 id="encabezado">Hot Wheels 2021 Pop Culture Mix 1: Masters of the Universe!</h1>
+            <h3 id="sub">¡Bienvenido a casa He-Man!</h3>
             <p>
-                 En 1963 surge la idea de crear una línea de juguetes especializada en
-                 vehículos cuando Ruth Handler, la creadora de la Barbie pidió a Jack Ryan, 
-                 jefe de desarrollo de Mattel y quien provenía de la industria aeroespacial, 
-                 que pensara cómo dar vida a esos automóviles.4​ Pero fue hasta 1968 cuando aparece la primera 
-                 línea de carros con 16 modelos gracias a que Elliot Handler contrato al exdiseñador de General 
-                 Motors Harry Bradley. El tamaño escogido fue de 1:64 y se presentaron en la Feria de Juguetes de
-                 Nueva York con un modelo a escala del Chevrolet Camaro. Un sistema icónico de pistas naranjas
-                 que se mantiene en la actualidad, siempre ha sido parte de la línea de juguetes. El primer conjunto 
-                 de pistas se vendió junto con los vehículos originales, y fue diseñado por la ingeniera de Mattel
-                 Marjorie Ann M. Smith, también conocida como 'Margie', en 1967. Los autos Hot Wheels fueron diseñados
-                 para rodar fácilmente y a altas velocidades, lo que fue una gran innovación en ese momento.La primera 
-                 asociación de Hot Wheels con un fabricante de automóviles fue con la marca Chevrolet de General Motors. 
-                 Desde entonces, ha habido un modelo de Hot Wheels para casi todos los autos fabricados.
-                 <br><br>
-                Inicia la producción en California y luego, al final del año en Hong Kong. Es la primera línea de producción 
-                de Hot Wheels para el año 1968. La línea consta de los siguientes 16 modelos:
-                ▪ Beatnik Bandit <br>
-                ▪ Custom El Dorado <br>
-                ▪ Custom Camaro <br>
-                ▪ Custom Corvette<br>
-                ▪ Custom Fleetside <br>
-                ▪ Deora <br>
-                ▪ Custom Mustang <br>
-                ▪ Custom T-Bird<br>
-                ▪ Hot Heap <br>
-                ▪ Ford J-Car<br>
-                ▪ Custom Cougar<br>
-                ▪ Custom Firebird<br>
-                ▪ Custom Barracuda <br>
-                ▪ Python ( tambien conocido como Cheetah) <br>
-                ▪ Silhouette <br>
-                ▪ Custom Volkswagen<br>
-                
-                Red Line Son los fabricados dentro de los primeros diez años de producción, de 1968 a 
-                1977.Durante ese período, los automóviles fueron fabricados con una franja roja en el 
-                neumático a excepción de algunos modelos ( Rail Dragsters de 1971, las dos motocicletas 
-                de 1975 y algunos de los vehículos militares).
+                Una antigua lucha por el poder ha estado atronando en la tierra de Eternia desde ... bueno ... desde que Mattel creó la franquicia Masters of the Universe en 1982. Un mundo de espada y hechicería te espera en el primer Pop Culture Mix de 2021.
+<br><br>
+Nuestro héroe es el príncipe Adam, más conocido por su poderoso alter ego He-Man. Con su Power Sword y sus increíbles aliados, defiende la tierra de Eternia, pero sobre todo el místico Castillo Grayskull. Adorna el Mercedes-Benz Unimog U 1300L. Basado en un vehículo con potencia propia, este casting solo ha aparecido cuatro veces, cada uno en una serie premium.
+<br><br>
+El principal antagonista de He-Man es Skeletor, el aspirante a conquistador con cara de calavera decidido a acceder a los asombrosos secretos del castillo Grayskull. Sus propios aliados, afortunadamente, a menudo son menos efectivos, y ciertamente menos leales, que los de He-Man. El villano llega a nosotros aquí en la Van de los 70, un casting que se originó en 1975, ¡anterior a la franquicia de He-Man!
+<br><br>
+Toma a Evil-Lyn, por ejemplo. Una bruja poderosa, se ha acercado a Skeletor como su segundo al mando. Ciertamente una aliada fuerte, pero se sabe que tiene aspiraciones propias y ha actuado independientemente de Skeletor en numerosas ocasiones. Está estampada en el panel Chevy® del 55, un casting que ha estado brindando magia a los entusiastas de Hot Wheels desde que apareció por primera vez (originalmente con una parte trasera que se abría) en 2006.
+<br><br>
+También leal a Skeletor es Beast Man, un bruto fuerte con cierto poder sobre el reino animal. Sin embargo, él se resiente y también considera traicionar a Skeletor. Quiero decir con amigos como estos ... no es de extrañar que Skeletor no llegue a ninguna parte. Beast Man se vuelve loco en el Volkswagen T1 Panel Bus en este Mix, ¡un casting que ha aparecido en la serie Pop Culture no menos de una docena de veces!
+<br><br>
+Una mejor amiga y aliada es Teela, la guerrera y capitana de la Guardia Real que ayuda a He-Man. Ella no sabe que él es en realidad el Príncipe Adam, a quien entrena. Su lealtad a cualquiera de las dos personas no parece estar en duda. Aparece en Bread Box, el poderoso vehículo de reparto que debutó en 2010, y no ha holgazaneado, apareciendo al menos una vez al año desde entonces.
+<br><br>
+Cada uno de estos vehículos Hot Wheels sería una fantasía para tener en tu colección. En una decoración hermosa y colorida, cada edición presenta una construcción de fundición a presión y ruedas Real Riders. Tienes el poder de llevarlos a tu castillo, eh, a tu hogar. 
             </p>
         </div>
         <div id="bbomb">
             <br><br>
-            <img src="../assets/BPBB.jpg" width="450px" height="270px">
-            <h6 id="fuente"> Por Renato Cabrera | Fecha: 19/02/2021</h6>
-            <h1 id="encabezado">Beach Bomb</h1>
-            <h3 id="sub">Crece el mito</h3>
+            <img src="https://content.invisioncic.com/x290494/monthly_2021_01/HWC_BlogHeader_WMT_PremiumSet1-mockup.jpg.0407a4eab332eb626c9ab9eabd15f7ce.jpg" width="685px" height="205px">
+            <h6 id="fuente"> Por Renato Cabrera | Fecha: 24/02/2021</h6>
+            <h1 id="encabezado">Hot Wheels 2021 Walmart Premium Diorama Set #1!</h1>
+            <h3 id="sub">Se el rey de la pista</h3>
             <p>
-                 Con el éxito de la marca Hot Wheels, lanza 24 nuevos modelos y aparece el modelo Beach Bomb, 
-                 este modelo inicialmente se pensó como un vehículo VW Tipo 2 y tenía dos tablas de surf, pero 
-                 debió ser modificado por los dieñadores Howard Rees y Larry Wood debido a que no rodaba de la 
-                 mejor manera en las pistas de Hot Wheels apareciendo una nueva versión de este modelo icónico, 
-                 cuyo original solo existen 40 ejemplares conocidos en el mundo, y es el más costoso de la marca. 
-                 En el Petersen Automotive Museum en Los Ángeles había un Beach Boom rosa en su exhibición Hot Wheels, 
-                 que se mostraba solo en una plataforma giratoria bajo un vidrio. El Club de coleccionistas de Hot Wheels 
-                 lanzó una nueva versión actualizada de la bomba de carga trasera en el 2002 como una edición limitada.
-                 Harry Bentley Bradley había renunciado a Mattel para volver a la industria automotriz. Recomendó a Ira Gilford. 
-                 Gilford, que acababa de abandonar Chrysler, aceptó rápidamente el trabajo de diseñar los siguientes modelos 
-                 de Hot Wheels. Algunos de los mejores autos de Hot Wheels, como Twin Mill y Splittin 'Image, vinieron del 
-                 tablero de dibujo de Ira Gilford. El éxito de la línea de 1968 se consolidó y se consolidó con los lanzamientos 
-                 de 1969, con los que Hot Wheels se estableció efectivamente como la marca más popular de modelos de autos de 
-                 juguete pequeños en los Estados Unidos. Splittin 'Image , Torero , Turbofire y Twin Mill formaron parte de la 
-                 serie "Show N Go" y son los primeros diseños originales de Hot Wheels. También se lanza una colección Grand Prix.
-                 <br>
-                <br>
-                Cabe destacar que existe una Beach Boom rosa original de 1969, siendo el prototipo de la serie completa, en posesión 
-                de Bruce Pascal, uno de los coleccionistas más grandes y famosos de Hot Wheels en el planeta. Su colección asciende a 
-                más de 1 millón de dólares, y el prototipo de las Beach Boom alcanza el precio de 150 mil dólares, siendo este el Hot
-                Wheels más caro del mundo. Tanta es la popularidad de esta pieza, que asistió al programa "El Precio de la Historia" (Pawn Stars) para intentar venderla,
-                pero Rick Harrison no alcanzó el precio que Pascal pedía por ella.
-                <br>
-                <br>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/PG4_L0QzN6M" frameborder="0" allow="accelerometer; 
-                autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 
+                 El Dodge HEMI Challenger '70. El '65 Mustang 2 + 2 Fastback. El Camaro® 70. Estos son los muscle cars que representan a cada uno de los tres grandes fabricantes de automóviles estadounidenses en lo que llamamos cariñosamente "Pony Rides".
+<br><br>
+De acuerdo, más precisamente, esa es nuestra forma irónica de pensar sobre el primer conjunto de dioramas Premium Walmart de Hot Wheels para 2021. Notarás esa "marca", por así decirlo, en las puertas del Retro Rig, un Hot Ruedas de diseño original que hace las veces de transportador en este conjunto.
+<br><br>
+Esto también señala la continuación de una serie que generó mucho calor durante su primer año, el año pasado. Teniendo en cuenta que todos están hechos con piezas de fundición totalmente metálicas y ruedas Real Riders, ¡su popularidad no es ninguna sorpresa! En este conjunto, estamos encantados de incluir el Dodge con su potente motor 426 HEMI; el Mustang que dominó las carreras de autos deportivos y de resistencia; y el Camaro®, una estrella de la serie de carreras de carretera Trans-Am.
+<br><br>
+¿Cuál creemos que ganará en una carrera? Bueno, no hay forma de que estemos tomando partido en eso. Pero ciertamente podemos sugerirle que considere comprar dos juegos, para que pueda desempacar uno de ellos y poner estos ponis en una pista naranja, ¡como en los buenos viejos tiempos! 
+         <br><br>        
           
 
             </p>
