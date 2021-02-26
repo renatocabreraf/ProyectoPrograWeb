@@ -45,7 +45,12 @@ body,html{
   text-align: center;
 
 }
-
+#titulo{
+  font-style: italic;
+  font-weight: bold;
+  color: rgba(190, 2, 2, 0.616);
+  text-align: center;
+}
 #cuerpo{
   display: block;
   margin: 20px auto;

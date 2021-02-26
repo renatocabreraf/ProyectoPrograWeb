@@ -134,7 +134,7 @@ export default {
 
 <style>
 
-body, html {
+.tipos {
     background-color: Black;
     color: rgb(255, 255, 255);
     font-family: 'Roboto';

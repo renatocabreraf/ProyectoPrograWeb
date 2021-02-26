@@ -112,11 +112,11 @@ body{
 }
 .font-general-button{
     width: 50%;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
         background-color: blue;
 }
 .terms{
-    color: white;
+    color: rgb(12, 12, 12);
 
 }
 </style>

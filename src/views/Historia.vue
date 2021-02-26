@@ -209,7 +209,7 @@ export default {
 </script>
 
 <style>
-html, body{
+.historia{
   background-color: black;
 }
 #comienzos{

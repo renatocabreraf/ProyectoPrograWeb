@@ -30,7 +30,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-  body,html{
+  .hello{
     background-color: black;
   }
 

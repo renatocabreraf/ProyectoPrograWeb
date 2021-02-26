@@ -84,7 +84,7 @@ export default {
 </script>
 
 <style>
-html,body{
+.home{
     background-color: black;
 }
 </style>

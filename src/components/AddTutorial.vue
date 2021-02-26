@@ -92,14 +92,11 @@ export default {
 </script>
 
 <style>
-html{
-  background-color: black;
-  text-align: center;
-}
+
 .submit-form {
   max-width: 300px;
   margin: auto;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .btn-success{

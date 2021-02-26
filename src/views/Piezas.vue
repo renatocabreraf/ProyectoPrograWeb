@@ -164,7 +164,7 @@ export default {
 </script>
 
 <style>
-html, body{
+.piezas{
   background-color: black;
 }
 #comienzos{

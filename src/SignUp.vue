@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="js">
 import { Component, Vue } from "vue-property-decorator";
 import SignUp from "@/components/SignUp.vue";
 

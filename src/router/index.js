@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
+init("user_ZPS9WMVNAPWLC8dMp7RkH");
 
-
-
+Vue.use(emailjs)
 Vue.use(VueRouter)
 
 const routes = [
@@ -153,6 +155,8 @@ function setup(){
 	$passage.html(newtext);
 	
 }
+
+
 
 
 
