@@ -1,6 +1,9 @@
 <template>
 <div class="priv">
   <Navbar />
+  <div class="imagen">
+    <img  src="../assets/Logo2.png"><img src="https://1000marcas.net/wp-content/uploads/2020/11/Hot-Wheels-Logo.png" width="370px" height="200px"><img src="https://hotwheelscollectors.mattel.com/wcsstore/MattelSAS/images/colors/hwc/logo.png">
+    </div>  
     <div id="cuerpo">
     <p><strong>POLÍTICA DE PRIVACIDAD</strong></p><p>&nbsp;</p><p>El presente Política de 
     Privacidad establece los términos en que Hot Wheels Collectors Guatemala Fan Club usa y protege
@@ -76,7 +79,7 @@ export default {
   margin: 20px auto;
   color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  text-align: center;
+  text-align: left;
   max-width: 50%;
 }
 </style>

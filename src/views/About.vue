@@ -5,7 +5,14 @@
        <p id="weirdtext">Esta página web está dedicada a todos los coleccionistas de piezas Hot Wheels (también aceptamos otras marcas) y disfruten
         de la pasión que rodea el coleccionismo, con el fin de compartir historias, anécdotas, colecciones y también conocer a 
         otros coleccionstas, para realizar intercambios, ventas y subastas de piezas. Actualmente esta página está dedicada a todos
-        los coleccionistas guatemaltecos.</p> <author>Equipo de Desarrollo</author>
+        los coleccionistas guatemaltecos.
+        <br><br>
+        Recuerda mantener un clima de amistad y camaradería, todos en este portal buscamos compartir nuestra colección, intercambiar piezas y comprar todas las
+        que nos hacen falta. De encontrarse comentarios que dañen la integridad de este sitio, se procederá a banear a la persona y no permitirle el ingreso a la 
+        página por el tiempo que sea debido según los <br><a href="/terms">Terminos y condiciones</a>
+        <br><br>
+        Atentamente: <br>
+        </p> <author>Equipo de Desarrollo</author>
         <Footer />
     </div>
 
@@ -25,7 +32,7 @@ export default {
 <style>
 
 .about{
-  background-image: url(https://i.imgur.com/fnyPU9Q.jpg);
+  background-image: url(https://lh3.googleusercontent.com/proxy/3Zaly7bHnjjUGcf8oM8fP6A7w3vhKzg4ycXxOnvozr4HNNz03I5aldu_-xroWA0KU0tWmoFwI6YN0vi2ftm_t9uYUpue1eyJ-i9SYCQLCv9R0lwC-L5pn1WRGFTj);
   
 
 }
@@ -35,7 +42,7 @@ export default {
 	display: block;
 	margin: 100px auto 20px auto;
   color: black;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(83, 2, 2, 0.3);
   border-radius: 5px;
   font-family: sans-serif;
   text-align: center;

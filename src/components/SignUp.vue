@@ -5,7 +5,7 @@
         <b-container>
             <div class="row align-items-center">
                 <b-col class="col-md-6 col-12 text-center">
-                    <img alt="logo"  src="../assets/Logo2.png" />
+                    <img id ="imagen" alt="logo"  src="../assets/Logo2.png" />
                 </b-col>
                 <b-col class="col-md-6 col-12 text-center">
                     <b-card-body class="square-card">                    
@@ -104,14 +104,19 @@
 </script>
 
 <style>
+#imagen{
+    background-color: white;
+}
 body{
     background-color: white;
 }
 .font-general-button{
     width: 50%;
-    background-color: black;
+    background-color: white;
+        background-color: blue;
 }
 .terms{
-    color: black;
+    color: white;
+
 }
 </style>

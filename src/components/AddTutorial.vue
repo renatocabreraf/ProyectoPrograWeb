@@ -93,12 +93,13 @@ export default {
 
 <style>
 html{
-  background-color: white;
+  background-color: black;
+  text-align: center;
 }
 .submit-form {
   max-width: 300px;
   margin: auto;
-  color: black;
+  color: white;
 }
 
 .btn-success{

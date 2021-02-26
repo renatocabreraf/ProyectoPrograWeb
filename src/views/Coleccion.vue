@@ -1,7 +1,7 @@
 <template>
 <div>
            <Navbar />
-    <div>
+    <div id="cuerpo">
  
         <AddTutorial />
         <div class="row col-12 my-3">
@@ -56,3 +56,7 @@ import Footer from '../components/Footer.vue'
     }
     
 </script>
+
+<style>
+
+</style>
