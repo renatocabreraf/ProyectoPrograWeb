@@ -4,7 +4,7 @@
       <router-link to="/home"  class="logo-item"><img src="../assets/Logo2.png"></router-link> |
       <router-link to="/historia" class="menu-item" >Historia de Hot Wheels</router-link> |
       <router-link to="/tipos" class="menu-item" >Tipos de Piezas</router-link> |
-      <router-link to="/coleccion" class="menu-item">Colección de Usuarios</router-link> |
+      <router-link to="/agregar" class="menu-item">Colección de Usuarios</router-link> |
       <router-link to="/piezas" class="menu-item">Piezas a Buscar</router-link> |
       <router-link to="/mercado" class="menu-item">Mercado Online</router-link>
       <br>

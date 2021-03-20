@@ -10,6 +10,7 @@ import vuetify from './plugins/vuetify';
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
 init("user_ZPS9WMVNAPWLC8dMp7RkH");
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 Vue.use(emailjs)
 Vue.config.productionTip = false
@@ -26,4 +27,22 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
+new Vue({
+  el: '#appPacientes',
+  data: {
+      // Input nombre
+      nombre: '',
+      // Input edad
+      edad: '',
+      // Ver o no ver el formulario de actualizar
+      formActualizar: false,
+      // La posición de tu lista donde te gustaría actualizar 
+      idActualizar: -1,
+      // Input nombre dentro del formulario de actualizar
+      nombreActualizar: '',
+      // Input edad dentro del formulario de actualizar
+      edadActualizar: '',
+      // Lista de pacientes
+      pacientes: [] 
+  }})
 

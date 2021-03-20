@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
+import firebase from "firebase/app";
 init("user_ZPS9WMVNAPWLC8dMp7RkH");
 
 Vue.use(emailjs)
@@ -104,6 +105,22 @@ const routes = [
     name: "Contacto",
     component: () => import("../views/Contacto.vue")
   }
+  ,
+  {
+    path: '/agregar',
+    name: 'agregar',
+    component: () => import('../components/UserCreate.vue')
+  },
+  {
+    path: '/list',
+    name: 'list',
+    component: () => import('../components/UserList.vue')
+  },
+  {
+    path: '/:id',
+    name: 'edit',
+    component: () => import('../views/Edit.vue')
+  }
 ]
 
 const router = new VueRouter({
@@ -155,9 +172,6 @@ function setup(){
 	$passage.html(newtext);
 	
 }
-
-
-
 
 
 
