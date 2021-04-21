@@ -2,12 +2,12 @@
   "name": "hwc-proyecto",
   "version": "0.1.0",
   "private": true,
-
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "dev": "nodemon app.js",
-    "devbabel": "nodemon app.js --exec babel-node"
+    "devbabel": "nodemon app.js --exec babel-node",
+    "test": "node test/run"
   },
   "dependencies": {
     "@okta/okta-vue": "^1.0.0",
@@ -41,6 +41,7 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "nyc": "^15.1.0",
     "sass": "^1.32.0",
     "sass-loader": "^10.0.0",
     "vue-cli-plugin-vuetify": "~2.1.0",
