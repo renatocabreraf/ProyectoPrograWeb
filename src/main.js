@@ -46,3 +46,14 @@ new Vue({
       pacientes: [] 
   }})
 
+  const express = require('express');
+
+  const app = express();
+  
+  app.get('/', function(req, res){
+    res.send('Hola Mundo Vue!');
+  });
+  
+  app.listen(5000, function(){
+    console.log('Servidor Web Express en Ejecucion');
+  });

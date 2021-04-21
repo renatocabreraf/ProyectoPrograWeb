@@ -182,7 +182,7 @@ h1{
     display: inline-block;
 }
 #basico, #th, #sth{
-    margin-left: 2rem;
+   
     background-color: rgba(80, 80, 80, 0.3);
   border-radius: 5px;
   backdrop-filter: blur(10px);
@@ -220,7 +220,7 @@ h1{
     display: inline-block;
 }
 #cs, #re, #pr{
-    margin-left: 2rem;
+    
     background-color: rgba(80, 80, 80, 0.3);
   border-radius: 5px;
   backdrop-filter: blur(10px);
@@ -257,7 +257,7 @@ h1{
     display: inline-block;
 }
 #sdcc, #rlc,#pri{
-    margin-left: 2rem;
+   
     background-color: rgba(80, 80, 80, 0.3);
   border-radius: 5px;
   backdrop-filter: blur(10px);
