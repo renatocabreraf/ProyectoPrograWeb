@@ -6,7 +6,6 @@
       <router-link to="/tipos" class="menu-item" >Tipos de Piezas</router-link> |
       <router-link to="/Coleccionistas.html" class="menu-item">Coleccionistas</router-link> |
       <router-link to="/piezas" class="menu-item">Piezas a Buscar</router-link> |
-      <router-link to="/mercado" class="menu-item">Mercado Online</router-link>
       <br>
       <input type="search" size="sm" class="mr-sm-2 searchbox" placeholder="Search...">
       <a class="nav-icon" href="#"><span class="iconify" data-inline="false" data-icon="pixelarticons:search" style="color: #ffffff; font-size: 36px;"></span></a>
