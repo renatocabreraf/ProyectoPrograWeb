@@ -167,7 +167,7 @@ h1{
    
     padding: 5px;
 
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     margin-bottom: 50px;
     display: inline-block;
@@ -176,7 +176,7 @@ h1{
     width: 400px;
     
     padding: 5px;
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     margin-bottom: 50px;
     display: inline-block;
@@ -195,7 +195,7 @@ h1{
     padding: 5px;
     margin-bottom: 50px;
 
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     display: inline-block;
 }
@@ -204,7 +204,7 @@ h1{
     
     padding: 5px;
 
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     margin-bottom: 50px;
     display: inline-block;    
@@ -214,7 +214,7 @@ h1{
     
     padding: 5px;
 
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     margin-bottom: 50px;
     display: inline-block;
@@ -231,7 +231,7 @@ h1{
     
     padding: 5px;
     
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     margin-bottom: 50px;
     display: inline-block;
@@ -241,7 +241,7 @@ h1{
     
     padding: 5px;
     
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     margin-bottom: 50px;
     display: inline-block;
@@ -251,7 +251,7 @@ h1{
     
     padding: 5px;
     
-    margin-left: 1.1rem;
+    margin-left: 1rem;
     text-align: center;
     margin-bottom: 50px;
     display: inline-block;

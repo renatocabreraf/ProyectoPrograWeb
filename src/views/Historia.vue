@@ -267,7 +267,7 @@ p{
     padding: 5px;
     margin-bottom: 50px;
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 1rem;
     background-color:rgba(80, 80, 80, 0.3);
   border-radius: 5px;
   backdrop-filter: blur(10px);
