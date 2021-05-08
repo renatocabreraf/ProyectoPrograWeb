@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.jason())
 
-require('./app/routers/hotwheels.routers.js')(app);
+require('public/Coleccionistas.html')(app);
 
 var server = app.listen(8081, function(){
     var host = server.address().address
@@ -15,7 +15,6 @@ var server = app.listen(8081, function(){
 var http = require('http');
 var path = require('path');
 var fs = require('fs');
-const { function, function } = require('joi');
 var mimeTypes = {
     '.js' : 'text/javascript',
     '.html': 'text/html',
