@@ -28,10 +28,7 @@
                                 placeholder="password"
                                 v-model="model.pass">
                             </b-form-input>
-                            
-
-                            <b-form-checkbox style="margin-left: 1.3rem" v-model="model.rememberMe" class="terms"><br>Accept our terms and conditions</b-form-checkbox>
-
+                        
                             
                                 <b-button type="submit" class="font-general-button " block variant="primary">Log In</b-button>
                             

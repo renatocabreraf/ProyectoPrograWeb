@@ -24,6 +24,7 @@
     "init": "^0.1.2",
     "login": "^0.8.0",
     "morgan": "^1.10.0",
+    "node-cache": "^4.2.1",
     "python": "^0.0.4",
     "tailwindcss": "^2.0.4",
     "toastr": "^2.1.4",
