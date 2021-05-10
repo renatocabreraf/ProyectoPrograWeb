@@ -6,6 +6,19 @@
 
 </template>
 <script>
+
+  h1= title
+
+  if(user){
+    ul
+      li
+        img(src="#{user.photo}")
+      li
+        <a(href='logout')> Salir
+  }else
+    ul
+      li
+        <a(href='auth/facebook')> LoginConFacebook
 export default {
   name:"facebookLogin",
   methods: {
@@ -43,7 +56,9 @@ export default {
     }
   }
 };
+
 </script>
+
 <style>
 .button{
   color:white;
