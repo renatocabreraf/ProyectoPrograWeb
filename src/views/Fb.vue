@@ -3,6 +3,7 @@
     <button class="button" @click="logInWithFacebook"> Login with Facebook</button>
     <router-link to="/">Volver</router-link>
   </div>
+
 </template>
 <script>
 export default {
@@ -14,8 +15,6 @@ export default {
       window.FB.login(function(response) {
         if (response.authResponse) {
           alert("You are logged in &amp; cookie set!");
-          // Now you can redirect the user or do an AJAX request to
-          // a PHP script that grabs the signed request from the cookie.
         } else {
           alert("User cancelled login or did not fully authorize.");
         }
@@ -25,8 +24,8 @@ export default {
     async initFacebook() {
       window.fbAsyncInit = function() {
         window.FB.init({
-          appId: "8220179XXXXXXXXX", //You will need to change this
-          cookie: true, // This is important, it's not enabled by default
+          appId: "8220179XXXXXXXXX",
+          cookie: true,
           version: "v13.0"
         });
       };
