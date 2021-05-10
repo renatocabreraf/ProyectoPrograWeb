@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@okta/okta-vue": "^1.0.0",
+    "aws-amplify": "^3.4.0",
+    "aws-amplify-vue": "^2.1.5",
     "axios": "^0.21.1",
     "bootstrap": "^4.1.0",
     "bootstrap-vue": "^2.0.0-rc.7",

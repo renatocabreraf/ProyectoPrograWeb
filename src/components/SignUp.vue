@@ -29,14 +29,20 @@
                                 v-model="model.pass">
                             </b-form-input>
                         
-                            
+                                <br>
+                                <br>
+                                
                                 <b-button type="submit" class="font-general-button " block variant="primary">Log In</b-button>
-                            
+                                <br><br>
+                                <router-link to="/fb">Acceder con Redes Sociales</router-link>
+
                         </b-form>
 
                     </b-card-body>
                 </b-col>
             </div>
+            <div>
+  </div>
         </b-container>
     </div>
 </template>
@@ -90,6 +96,7 @@ Vue.use(VueAxios, axios)
         }
     }
 </script>
+
 
 <style>
 #imagen{
