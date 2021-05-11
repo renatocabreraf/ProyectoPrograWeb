@@ -21,6 +21,8 @@ var mimeTypes = {
     '.css': 'text/css'
 };
 
+//prueba
+
 var cache = {};
 function cacheYEntrega (f, cb){
     if(!cache[f]){
